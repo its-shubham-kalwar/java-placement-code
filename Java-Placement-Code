@@ -1,0 +1,2043 @@
+// Java Basics class  -----------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         System.out.print("Hello World!\n");
+//         System.out.print("Hello world!\n");
+//     }
+// }
+
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         System.out.println("*****");
+//         System.out.println("****");
+//         System.out.println("***");
+//         System.out.println("**");
+//         System.out.println("*");
+//     }
+// }
+
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         System.out.println("@@@@@");
+//         System.out.println("@@@@");
+//         System.out.println("@@@");
+//         System.out.println("@@");
+//         System.out.println("@");
+//     }
+// }
+
+
+
+// Variables in java class --------------
+
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int a =10;
+//         int b = 20;
+//         System.out.println(a);
+//         System.out.println(b);
+
+//         String name = "Shubham";
+//         System.out.println(name);
+        
+//         a = 50;
+//         System.out.println(a);
+//     }
+// }
+
+
+// Data types in java class --------------- byte,char,float,int,double,boolean,long,short
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         byte b = 8;
+//         System.out.println(b);
+//         char ch = 'a';
+//         System.out.println(ch);
+
+//         boolean var = false;
+//         double price = 10.5;
+//         int number = 25;
+
+//     }
+// }
+
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int a =10;
+//         int b = 5;
+//         int sum = a+b;
+//         System.out.println(sum);
+//     }
+// }
+
+
+
+// How to take input from user ----------------
+
+// import java.sql.NClob;
+// import java.util.*;
+
+// import javax.swing.event.ChangeEvent;
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         String input = sc.next();
+//         System.out.println(input);
+//     }
+// }
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+
+//         System.out.println(name);
+//     }
+// }
+
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+
+//         System.out.println(number);
+//     }
+// }
+
+
+
+// Product of a and b ---------------------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         int prod = a*b;
+
+//         System.out.println(prod);
+//     }
+// }
+
+
+
+// Sum of a and b --------------------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         int sum = a+b;
+
+//         System.out.println(sum);
+//     }
+// }
+
+
+
+// Area of Circle ------------------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int rad = sc.nextInt();
+        
+        
+//         float Area_of_circle = 3.14f*rad*rad;
+
+//         System.out.println(Area_of_circle);
+//     }
+// }
+
+
+
+// Type Conversion -----------------
+
+// conversion float to int --------------------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         float a = 25.12f;
+//         int b = (int)a;
+//         System.out.println(b);
+//     }
+// }
+
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         float marks = 99.9999f;
+//         int marks2 = (int)marks;
+//         System.out.println(marks2);
+//     }
+// }
+
+
+// conversion char to int --------------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         char ch = 'a';
+//         int number = ch;
+//         System.out.println(number);
+//     }
+// }
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         char a = 'a';
+//         char b = 'b';
+
+//         System.out.println(b-a);
+//         System.out.println((int)a);
+//         System.out.println((int)b);
+//     }
+// }
+
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         int a = 10;
+//         float b = 20.35f;
+//         long c = 35;
+//         double d = 45;
+//         double ans = a + b + c + d;
+//         System.out.println(ans);
+
+//     }
+// }
+
+
+
+// Operators in java class ----------------
+// 1. Assignment Operator --------
+// Binary operator -------
+
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         int A = 10;
+//         int B = 5;
+//         System.out.println("add = " + (A+B));
+//         System.out.println("Subt = " + (A-B));
+//         System.out.println("Multiply = " + (A*B));
+//         System.out.println("Divide = " + (A/B));
+//         System.out.println("Modulo(Remainder) = " + (A%B));
+
+//     }
+// }
+
+// unary operator -------
+
+// public class JavaBasics{
+//     public static void main(String args[]) {
+//         // int a = 10;
+//         // int b = ++a;
+//         // System.out.println(a);
+//         // System.out.println(b);
+
+
+
+//         int a = 10;
+//         int b = a++;
+//         System.out.println(a);
+//         System.out.println(b);
+
+//     }
+// }
+
+
+
+// 2. Relational Operator --------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int A = 10;
+//         int B = 5;
+//         System.out.println(A==B);
+//         System.out.println(A!=B);
+//         System.out.println(A>B);
+//         System.out.println(A<B);
+//         System.out.println(A>=B);
+//         System.out.println(A<=B);
+//     }
+
+// }
+
+
+
+// 3. Assignment Oprator ----------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int A = 10;
+//         A += 10;
+//         int B = 5;
+//         B = B - 5;
+//         int C = 4;
+//         C *= 4;
+//         int D = 10;
+//         D  *= 5;
+//         System.out.println(A);
+//         System.out.println(B);
+//         System.out.println(C);
+//         System.out.println(D);
+//     }
+
+// }
+
+
+
+//  4. Logical Operator --------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         // System.out.println((3>2) && (5>0));
+//         // System.out.println((2>1) && (5>7));
+
+
+//         // System.out.println((3<2) || (5>0));
+        
+//         int A = 10;
+//         int B = 10;
+//         System.out.println(A!=B);
+//     }
+
+// }
+
+
+
+// Conditional Statement in Java Class --------------
+
+// if-elae Statements -------
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int age = 22;
+//         if (age>=18){
+//             System.out.println("Adult : Vote , Drive");
+//         }
+//         else{
+//             System.out.println("Not Adult");
+//         }
+//     }
+
+// }
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int age = 16;
+//         if (age >= 18){
+//             System.out.println("Adult : Vote , Drive");
+//         }
+        
+//         if (age > 13 && age < 18) {
+//             System.out.println("teenager");
+//         }
+        
+//         else {
+//             System.out.println("Not Adult");
+//         }
+
+        
+//     }
+
+// }
+
+
+
+// Print the largest of two number A=1 , B = 3 -----------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int A = 1;
+//         int B = 3;
+//         if (A>B) {
+//             System.out.println("A is largest");
+//         }
+//         else{
+//             System.out.println("B is the largest");
+//         }
+//     }
+
+// }
+
+
+
+// Print Even or Odd --------------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+
+//         if (number % 2 == 0){
+//             System.out.println("Even number");
+//         }
+//         else{
+//             System.out.println("Odd number");
+//         }
+//     }
+
+// }
+
+
+
+//  Else if Statements -----------------------------------
+
+
+// Income tax Calculator -----------
+
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int income = sc.nextInt();
+//         int tax = 0;
+
+//         if(income<500000) {
+//             tax = 0;
+//         }
+//         else if (income >= 500000 && income < 1000000){
+//             tax = (int) (income * 0.2);
+//         }
+//         else {
+//             tax = (int) (income * 0.3);
+//         }
+
+//         System.out.println("Your tax is : " + tax);
+//     }
+
+// }
+
+
+
+// Print largest of three number -----------------------
+
+
+// public class JavaBasics {
+//      public static void main(String[] args) {
+//         int A = 1;
+//         int B = 3;
+//         int C = 3;
+
+//         if ((A>=B) && (A>=C)){
+//             System.out.println("Largest is A");
+//         }
+//         else if ((B>=A) && (B>=C)){
+//             System.out.println("Largest is B");
+//         }
+//         else{
+//             System.out.println("Largest is C");
+//         }
+         
+//     }
+// }
+
+
+
+// Ternary Operator ----------------------
+
+// public class JavaBasics {
+//     public static void main(String[] args) {
+//        int number = 7;
+
+//        String type = ((number % 2)== 0 ) ? "even" : "odd";
+//        System.out.println(type);
+        
+//    }
+// }
+
+
+
+
+// Check if a student will pass or fail --------------------
+
+
+// public class JavaBasics {
+//     public static void main(String[] args) {
+//        int marks = 55;
+
+//        String Check = (marks >= 33) ? "Pass" : "Fail";
+//        System.out.println(Check);
+        
+//    }
+// }
+
+
+
+// Switch Statement -----------------------------------
+
+
+// public class JavaBasics {
+//     public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int number = sc.nextInt();
+
+//        switch (number) {
+//         case 1 : System.out.println("Samosa");
+//                     break;
+//         case 2 : System.out.println("Burgur");
+//                     break;
+//         case 3 : System.out.println("mango shake");
+//                     break;
+//         default : System.out.println("we wake up");
+//        }
+        
+//    }
+// }
+
+
+
+// Make a Calculator -------------------
+
+
+// public class JavaBasics {
+//     public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a : ");
+//        int a = sc.nextInt();
+//        System.out.println("Enter b : ");
+//        int b = sc.nextInt();
+//        System.out.println("Enter operater : ");
+//        char operator = sc.next().charAt(0);
+
+//        switch(operator) {
+//         case '+' : System.out.println(a+b);
+//                      break;
+//         case '-' : System.out.println(a-b);
+//                      break;
+//         case '*' : System.out.println(a*b);
+//                      break;
+//         case '/' : System.out.println(a/b);
+//                      break;
+//         case '%' : System.out.println(a%b);
+//                      break;
+//         default : System.out.println("Wrong operator");
+//        }
+        
+//    }
+// }
+
+
+
+//  Loops in java -------------------------------------------------
+
+// Print Hello world using while loop ---------------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int counter = 0;
+//         while(counter < 100){
+//             System.out.println("Hello world");
+//             counter++;
+//         }
+//         System.out.println("Printed Hello World !00x");
+
+//     }
+// }
+
+
+
+// Print number from 1 to n ------------------------------------
+
+
+// public class JavaBasics {
+//         public static void main(String args[]){
+//             Scanner sc = new Scanner(System.in);
+//             int n = sc.nextInt();
+//             int counter = 1;
+//             while(counter < n){
+//                 System.out.println(counter + " ");
+//                 counter++;
+//             }
+    
+//         }
+//     }
+
+// Print number from 1 to 10 -------------------------------------
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int number = 1;
+//         while (number<11){
+//             System.out.println(number + " ");
+//             number++;
+//         }
+
+//     }
+// }
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int range = sc.nextInt();
+//         int number = 1;
+//         while (number <= range){
+//             System.out.println(number + " ");
+//             number++;
+//         }
+
+//     }
+// }
+
+
+
+// For Loop in java ---------------------------------------------
+
+// print Hello world using for loop ----------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         for (int i = 1 ; i<=10 ; i++){
+//             System.out.println("Hello world");
+
+//         }
+
+//     }
+// }
+
+
+// Print Squar Pattern -----------------------------------------
+// ****
+// ****
+// ****
+// ****
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         // for (int i = 1 ; i<=4 ; i++){
+//         //     System.out.println("****");
+        
+//         int line = 1;
+//         while (line<=4){
+//             System.out.println("****");
+//             line++;
+//         }
+
+//     }
+// }
+
+
+
+// Print sum of first n natural number----------------------------
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int range = sc.nextInt();
+
+//         int sum = 0;
+//         int start  = 1;
+//         while(start <= range){
+//             sum = sum + start;
+//             start++; 
+//         }
+//         System.out.println("sum = " + sum);
+
+//     }
+// }
+
+
+
+// Break Statement -----------------------------------------
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         for (int i=1 ; i<=5; i++ ){
+//             if (i==3){
+//                 break;
+//             }
+//             System.out.println(i);
+//         }
+
+//     }
+// }
+
+
+
+// Continue Statement ---------------------------------------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         for (int i=1 ; i<=5; i++ ){
+//             if (i==3){
+//                 continue;
+//             }
+//             System.out.println(i);
+//         }
+
+//     }
+// }
+
+
+
+// do-while loop -----------------------------------------------
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int counter = 1;
+//         do {
+//             System.out.println("Hello world");
+//             counter++;
+//         } while (counter <= 10);
+
+//     }
+// }
+
+
+// Print Reverse of a number -------------------------------------
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int n = 243556;
+
+//         while(n>0){
+//             int lastdigit = n%10;
+//             System.out.print(lastdigit + " ");
+//             n= n/10;
+
+//         }
+
+//     }
+
+// }
+
+
+
+// Display all number entered by user except multiples of 10 --------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         Scanner sc = new Scanner(System.in);
+
+//         do {
+//             System.out.println("Enter your number : ");
+//             int n = sc.nextInt();
+
+//             if (n%10==0){
+//                 continue;
+//             }
+
+//             System.out.println("number was : "+ n);
+//         }while(true);
+
+//     }
+// }
+
+
+
+// keep entering numbers till user enters a multiple of 10 ---------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+        
+//         Scanner sc = new Scanner(System.in);
+
+//         do {
+//             System.out.println("Enter your number : ");
+//             int n = sc.nextInt();
+
+//             if (n%10==0){
+//                 break;
+//             }
+
+//             System.out.println("number was : "+ n);
+//         }while(true);
+
+//     }
+// }
+
+
+
+// Print star pattern ----------------------------
+
+// * 
+// ** 
+// ***
+// ****
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         for(int line=1; line<=4; line++){
+//             for(int star=1; star<=line; star++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// Print Inverted star patteern -----------------------------------
+// ****
+// ***
+// **
+// *
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         for(int line=1 ; line<=4 ; line++){
+//             for(int star=1 ; star<=4-line+1 ; star++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// Print Half-Pyramid Pattern -----------------------------------
+// 1
+// 12
+// 123
+// 1234
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int n = 4;
+
+//         for(int line=1 ; line<=4 ; line++){
+//             for(int number=1 ; number<=line ; number++){
+//                 System.out.print(number);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// Print Character pattern --------------------------------------
+// A
+// Bc
+// DEF
+// GHIJ
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+//         int n = 4;
+//         char ch = 'A';
+
+//         for(int line=1 ; line<=n ; line++){
+//             for(int chars=1 ; chars<=line ; chars++){
+//                 System.out.print(ch);
+//                 ch++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// Function in java -----------------------------------------------
+
+
+// public class JavaBasics {
+//     public static void printhelloworld(){
+//         System.out.println("Hello World");
+//     }
+
+//     public static void calculate(){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a : ");
+//         int a = sc.nextInt();
+//         System.out.println("Enter b : ");
+//         int b = sc.nextInt();
+//         int sum = a+b;
+//         System.out.println("sum = " + sum);
+//     }
+
+//     public static void main(String args[]){
+//         printhelloworld();
+//         calculate();
+//     }
+// }
+
+
+
+// Swap two number in java ----------------------------------------
+
+
+// public class JavaBasics {
+//     public static void main(String args[]){
+
+//        int a = 3;
+//        int b = 6;
+
+//        int temp = a;
+//        a = b;
+//        b = temp;
+
+//        System.out.println("a = "+ a);
+//        System.out.println("b = "+ b);
+//     }
+// }
+
+
+
+// Find product of a & b ------------------------------------------
+
+
+// public class JavaBasics {
+
+//     public static int multiply (int a , int b){
+//         int  product = a*b;
+//         return product;
+//     }
+
+//     public static void main(String args[]){
+//        int product = multiply(3,5);
+//        System.out.println("a*b = " + product);
+//     }
+// }
+
+
+// claculate factorial of a number , n -------------------------------
+
+
+// public class JavaBasics {
+
+//     public static int factorial(int n){
+//         int f = 1;
+
+//         for(int i=1 ; i<=n ; i++){
+//             f = f*i;
+//         }
+
+//         return f ;
+//     }
+
+//     public static void main(String args[]){
+
+//        Scanner sc =new Scanner(System.in);
+//        System.out.println("Enter value of n : ");
+//        int n = sc.nextInt();
+
+//        System.out.println(factorial(n));
+//     }
+// }
+
+
+
+// calculate binary cofficient ---------------------------------------
+
+
+// public class JavaBasics {
+
+//         public static int factorial(int n){
+//             int f = 1;
+    
+//             for(int i=1 ; i<=n ; i++){
+//                 f = f*i;
+//             }
+    
+//             return f ;
+//         }
+
+//         public static int binCoff(int n , int r){
+//             int fact_n = factorial(n);
+//             int fact_r = factorial(r);
+//             int fact_nmr = factorial(n-r);
+
+//             int binCoff = fact_n / (fact_r * fact_nmr);
+//             return binCoff;
+//         }
+    
+//         public static void main(String args[]){
+//            System.out.println(binCoff(5 , 2));
+//         }
+//     }
+
+
+
+// Function Overloading using parameter ---------------------------------------------
+
+
+// public class JavaBasics {
+//     // fun to call sum of teo num
+//     public static int sum (int a , int b){
+//         return a+b ;
+//     }
+
+//     public static int sum(int a , int b ,int c){
+//         return a + b + c;
+//     }
+
+//     public static void main(String args[]){
+//        System.out.println(sum(2, 3));
+//        System.out.println(sum(5 ,2 ,1));
+//     }
+// }
+
+
+// function overloading using data type -------------------------------
+
+
+// public class JavaBasics {
+//     // fun to call sum of teo num
+//     public static int sum (int a , int b){
+//         return a+b ;
+//     }
+
+//     public static float sum(float a , float b){
+//         return a + b ;
+//     }
+
+//     public static void main(String args[]){
+//        System.out.println(sum(2, 3));
+//        System.out.println(sum(3.2f , 4.8f));
+//     }
+// }
+
+
+
+// check a number is prime or not ----------------------------------
+
+
+
+// public class JavaBasics {
+    
+//     public static boolean isPrime(int n){
+//         boolean isPrime = true;
+
+//         // only for n>2
+//         // 2
+//         if(n == 2){
+//             return true;
+//         }
+
+//         for(int i=2 ; i<n-1 ; i++){
+//             if(n % i == 0){
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         return isPrime;
+//     }
+
+//     public static void main(String args[]){
+//        System.out.println(isPrime(2));
+//     }
+// }
+
+
+// Optimized way to check number is prime or not
+
+
+// public class JavaBasics {
+    
+//         public static boolean isPrime(int n){
+//             if(n==2){
+//                 return true;
+//             }
+
+//             for(int i=2; i<=Math.sqrt(n); i++){
+//                 if (n % i == 0){
+//                     return false;
+//                 }
+//             }
+
+//             return true;
+//         }
+
+//         public static void main(String args[]){
+//            System.out.println(isPrime(16));
+//         }
+//     }
+
+
+
+// Print all Primes in a Range -------------------------------------
+
+
+// public class JavaBasics {
+//         public static boolean isPrime(int n){
+//                     if(n==2){
+//                         return true;
+//                     }
+        
+//                     for(int i=2; i<=Math.sqrt(n); i++){
+//                         if (n % i == 0){
+//                             return false;
+//                         }
+//                     }
+        
+//                     return true;
+//                 }
+    
+//         public static void primesInRange(int n){
+//             for(int i=2; i<=n; i++){
+//                 if(isPrime(i)){
+//                     System.out.print(i+" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+            
+    
+//         public static void main(String args[]){
+//            primesInRange(100);
+//         }
+//     }
+
+
+
+// Convert from Binary to Decimal ------------------------------------
+
+
+// public class JavaBasics{
+//     public static void binToDec(int binNum) {
+//         int mynum = binNum;
+//         int pow = 0;
+//         int decNum = 0;
+
+//         while (binNum > 0){
+//             int lastDigit = binNum % 10;
+//             decNum = decNum + (lastDigit * (int)Math.pow(2 , pow));
+
+//             pow++;
+//             binNum = binNum/10;
+//         }
+
+//         System.out.println("decimal of " + mynum + " = " + decNum);
+        
+//     }
+
+
+//     public static void main(String args[]) {
+//         binToDec(111);
+//     }
+// }
+
+
+
+// Convert from decimal to binary -------------------------------------
+
+// public class JavaBasics{
+//         public static void decToBin(int n) {
+//             int mynum = n;
+//             int pow = 0;
+//             int binNum = 0;
+
+//             while(n > 0){
+//                 int rem = n % 2;
+//                 binNum = binNum + (rem * (int)Math.pow(10 , pow));
+
+//                 pow++;
+//                 n = n/2;
+//             }
+
+//             System.out.println("binary form of " +  mynum + " = " + binNum);
+//         }
+    
+//         public static void main(String args[]) {
+//             decToBin(12);
+//         }
+//     }
+
+
+// Scope -------------------------------------------------------------
+// Method Scope ----------------------------------------------------
+
+
+// public class JavaBasics{
+        
+//     public static void main(String args[]) {
+        
+//         int s = 45;
+//         System.out.println(s); 
+        
+//     }
+// }
+
+
+
+// another type scope ---------------------
+
+// public class JavaBasics{
+
+//     public static void prints() {
+//         int s = 45;   // s cannot to resolve a variable
+        
+//     }
+//     public static void main(String args[]) {
+        
+
+//         System.out.println(s); 
+        
+//     }
+// }
+
+
+
+// Block scope ---------------
+
+// public class JavaBasics{
+
+//     public static void main(String args[]) {
+        
+//       {
+//         int s = 45;
+//       }
+
+//       System.out.println(s);
+//       // s cannot be resolve to a variable
+        
+        
+//     }
+// }
+
+
+
+// print Hollo rectngle -------------------------------------
+
+// *****
+// *   *
+// *   *
+// *****
+
+// public class JavaBasics {
+
+//     public static void hollow_rectangle(int totRow, int totCols){
+//         // outer loop
+//         for(int i=1 ; i<=totRow ; i++){
+//             // inner loop - columns
+//             for(int j=1; j<=totCols; j++){
+
+//                 if(i == 1 || i == totRow || j==1 || j == totCols){
+//                     System.out.print("*");
+//                 }
+//                 else{
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main(String args[]){
+//         hollow_rectangle(4, 5);
+//     }
+// } 
+
+
+
+// INVERTED & ROTATED HALF PYRAMID --------------------------------
+
+//    *
+//   **
+//  ***
+// ****
+
+// public class JavaBasics {
+
+//     public static void inverted_Rotated_Half_Cycle(int n){
+
+//         // outer loop
+//         for(int i=1; i<=n; i++){
+//             // spaces 
+//             for(int j=1; j<=n-i; j++){
+//                 System.out.print(" ");
+//             }
+
+//             // stars 
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//             }
+
+//             System.out.println();
+//         }
+
+//     }
+
+//     public static void main(String args[]){
+//         inverted_Rotated_Half_Cycle(10);
+//     }
+// } 
+
+
+
+// INVERTED & HALF PYRAMID WITH NUMBER --------------------------------
+
+// public class JavaBasics {
+
+//         public static void inverted_Rotated_Half_withNumbers(int n){
+//             for(int i=1; i<=n; i++){
+
+//                 // inner loop
+//                 for(int j=1; j<=n-i+1; j++){
+//                     System.out.print(j+" ");
+//                 }
+//                 System.out.println();
+//             }
+            
+//         }
+    
+//         public static void main(String args[]){
+//             inverted_Rotated_Half_withNumbers(5);
+//         }
+//     }
+
+
+
+// FLOYD'S Triangle ----------------------------------------------------
+
+// 1
+// 2  3
+// 4  5  6
+// 7  8  9  10
+// 11 12 13 14 15
+
+
+// public class JavaBasics {
+
+//             public static void Floyds_Triangle(int n){
+//                 int counter = 1;
+                
+//                 for(int i=1; i<=n; i++){
+
+//                     for(int j=1; j<=i; j++){
+//                         System.out.print(counter+" ");
+//                         counter++;
+//                     }
+//                     System.out.println();
+//                 }
+                
+//             }
+    
+//             public static void main(String args[]){
+//                 Floyds_Triangle(5);
+//             }
+//         }
+
+
+
+// 0=1 Triangle ------------------------------------------------------
+
+// 1
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
+
+
+// public class JavaBasics {
+//             public static void zero_one_triangle(int n){
+//                 for(int i=1; i<=n; i++){
+//                     for(int j=1; j<=i; j++){
+//                         if((i+j) % 2 == 0){
+//                             System.out.print("1");
+//                         }
+//                         else{
+//                             System.out.print("0");
+//                         }
+//                     }
+
+//                     System.out.println();
+
+//                 }
+//             }
+    
+//             public static void main(String args[]){
+//                 zero_one_triangle(5);
+//             }
+//         }
+
+
+
+// BUTTERFLY Pattern ------------------------------------------------
+
+// *             *
+// * *         * *
+// * * *     * * *
+// * * * * * * * *
+// * * * * * * * *
+// * * *     * * *
+// * *         * *
+// *             *
+
+
+
+
+
+// SOLID RHOMBUS -----------------------------------------------------
+
+//     *****
+//    *****
+//   *****
+//  *****
+// *****
+
+
+// public class JavaBasics {
+//                 public static void solid_rhombus(int n) {
+//                     for(int i=1; i<=n; i++){
+//                         //spaces 
+//                         for(int j=1; j<=(n-i); j++){
+//                             System.out.print(" ");
+//                         }
+
+//                         //stars
+//                         for(int j=1; j<=n; j++){
+//                             System.out.print("*");
+//                         }
+//                         System.out.println();
+//                     }
+//                 }
+        
+//                 public static void main(String args[]){
+//                     solid_rhombus(7);
+
+//                 }
+                
+//             }
+
+
+
+// HOLLOW RHOMBUS --------------------------------------------------
+
+//      *****
+//     *   *
+//    *   *
+//   *   *
+//  *****
+
+// public class JavaBasics {
+//                     public static void hollo_rhombus(int n) {
+//                         for(int i=1; i<=n; i++){
+//                             //spaces
+//                             for(int j=1; j<=(n-i); j++){
+//                                 System.out.print(" ");
+//                             }
+
+//                             //hollow rectangle - stars
+//                             for(int j=1; j<=n; j++){
+//                                 if(i == 1 || i == n || j == 1 || j == n){
+//                                     System.out.print("*");
+//                                 }
+//                                 else{
+//                                     System.out.print(" ");
+//                                 }
+//                             }
+//                             System.out.println();
+//                         }
+//                     }
+            
+//                     public static void main(String args[]){
+//                         hollo_rhombus(11);
+    
+//                     }
+                    
+//                 }
+
+
+
+// DIAMOND Pattern ---------------------------------------------------
+
+//    *
+//   ***
+//  *****
+// *******
+// *******
+//  *****
+//   ***
+//    *
+
+// public class JavaBasics {
+//         public static void diamond(int n){
+//             // 1st half
+//             for(int i=1; i<=n; i++){
+//                 //spaces
+//                 for(int j=1; j<=(n-i); j++){
+//                     System.out.print(" ");
+//                 }
+
+//                 //stars
+//                 for(int j=1; j<=(2*i)-1; j++){
+//                     System.out.print("*");
+//                 }
+
+//                 System.out.println();
+//             }
+
+//         // 2nd half
+//         for(int i=n; i>=1; i--){
+//             //spaces
+//             for(int j=1; j<=(n-i); j++){
+//                 System.out.print(" ");
+//             }
+
+//             //stars
+//             for(int j=1; j<=(2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }      
+//         public static void main(String args[]){
+//             diamond(10);
+//         }                
+// }
+
+
+
+// Array -----------------------------------------------------------
+
+// import java.util.*;
+
+
+// public class JavaBasics{
+
+//     public static void main (String args[]){
+//         int marks[] = new int[100];
+
+//         Scanner sc = new Scanner(System.in);
+
+//         marks[0] = sc.nextInt();
+//         marks[1] = sc.nextInt();
+//         marks[2] = sc.nextInt();
+
+//         System.out.println("phy: "+ marks[0]);
+//         System.out.println("che : "+ marks[1]);
+//         System.out.println("math: "+ marks[2]);
+
+//     }
+// }
+
+//   input --------
+//   99
+//   97
+//   98
+//   Output ------------
+//   phy: 99
+//   che : 97
+//   math: 98
+
+
+// -----------------------------------------------------------------
+
+
+// public class JavaBasics{
+
+//         public static void main (String args[]){
+//             int marks[] = new int[100];
+    
+//             Scanner sc = new Scanner(System.in);
+
+//             System.out.println("length of array = "+marks.length);
+    
+//         }
+//     }
+
+// Output ------------
+// length of array = 100
+
+
+// Passing arraay as argument -------------------------------------
+
+
+// public class JavaBasics{
+//     public static void update(int marks[], int nonChangable){
+//         nonChangable = 10;
+//         for(int i=0; i<marks.length; i++){
+//             marks[i] = marks[i] + 1;
+//         }
+//     }
+
+//         public static void main (String args[]){
+//             int marks[] = {97,98,99};
+//             int nonChangable = 5;
+//             update(marks, nonChangable);
+//             System.out.println(nonChangable);
+
+//             // print our marks
+//             for(int i=0; i<marks.length; i++){
+//                 System.out.print(marks[i]+" ");
+//             }
+//             System.out.println();
+    
+//         }
+//     }
+
+// Output -----------
+// 5
+// 98 99 100
+
+
+//  Linear Search ---------------------------------------------------
+// Find the key in given numbers -------
+
+
+// public class JavaBasics{
+
+//     public static int linearSearch(int numbers[], int key){
+//         for(int i=0; i<numbers.length;  i++){
+//             if(numbers[i] == key){
+//                 return i;
+//             }
+//         }
+
+//         return -1;
+//     }
+
+//             public static void main (String args[]){
+//                 int numbers[] = {2, 4, 6, 8, 10, 12, 14, 16}; 
+//                 int key = 10;
+
+//                 int index = linearSearch(numbers, key);
+//                 if(index == -1){
+//                     System.out.println("NOT found");
+//                 } else {
+//                     System.out.println("key is at index : " + index);
+                
+//                 }
+//             }
+//         }
+
+// Output --------
+// key is at index : 4
+
+
+
+// Find Largest Number in array --------------------------------------------------
+
+
+// public class JavaBasics{
+
+//     public static int getLargest(int numbers[]){
+//         int largest = Integer.MIN_VALUE;
+//         int smallest = Integer.MAX_VALUE;
+
+//         for(int i=0; i<numbers.length; i++){
+//             if(largest < numbers[i]){
+//                 largest = numbers[i];
+//             }
+//             if(smallest > numbers[i]){
+//                 smallest = numbers[i];
+//             }
+//         }
+//         System.out.println("smallest value is  : "+ smallest);
+//         return largest;
+//     }
+
+//     public static void main(String args[]){
+//         int numbers[] = {1, 2, 6, 3, 5};
+//         System.out.println("largest value is : "+ getLargest(numbers));
+//     }
+// }
+
+// Output --------
+// smallest value is  : 1
+// largest value is : 6
+
+
+
+// Binary Search -------------------------------------------------
+// Find the number using bsearch -----------
+
+// public class JavaBasics{
+
+//     public static int binarySearch(int numbers[], int key){
+//         int start = 0, end = numbers.length-1;
+
+//         while(start <= end){
+//             int mid = (start + end)/2;
+
+//             //comparisions
+//             if(numbers[mid] == key){ //found
+//                 return mid;
+//             }
+//             if(numbers[mid] <= key){
+//                 start = mid+1;
+//             }
+//             else{
+//                 end = mid-1;
+//             }
+//         }
+//         return -1;
+//     }
+//     public static void main (String args[]){
+//         int numbers[] = {2, 4, 6, 8, 10, 12, 14};
+//         int key = 25;
+//         System.out.println("index for key is : " + binarySearch(numbers, key));
+//     }
+// }
+
+
+
+// Reverse an Array -------------------------------------------------
+
+
+// public class JavaBasics{
+
+//     public static void reverse(int numbers[]){
+//         int first = 0, last = numbers.length-1;
+
+//         while(first < last){
+//             //swap
+//             int temp = numbers[last];
+//             numbers[last] = numbers[first];
+//             numbers[first] = temp;
+            
+//             first++;
+//             last--;
+//         }
+//     }
+//     public static void main(String args[]){
+//         int numbers[] = {2, 4, 6, 8,10};
+
+//         reverse(numbers);
+//         for(int i=0; i<numbers.length; i++){
+//             System.out.print(numbers[i]+" ");
+//         }
+//         System.out.println();
+
+//     }
+// }
+
+// Output -----------
+// 10 8 6 4 2 
+
+
+
+// Pairs in array -------------------------------------------------
+
+// public class JavaBasics{
+//     public static void printpairs(int numbers[]){
+//         for(int i=0; i<numbers.length; i++){
+//             int curr = numbers[i]; // 2, 4, 6, 8, 10
+//             for(int j=i+1; j<numbers.length; j++){
+//                 System.out.print("(" + curr + "," + numbers[j] + ")");
+//             }
+//             System.out.println();
+//         }
+//     }
+
+//     public static void main(String args[]){
+//         int numbers[] = {2, 4, 6, 8, 10};
+//         printpairs(numbers);
+
+//     }
+// }
+
+// Output ----------
+// (2,4)(2,6)(2,8)(2,10)
+// (4,6)(4,8)(4,10)
+// (6,8)(6,10)
+// (8,10)
+
+
+
+// Find total pairs ----------------------------------------------
+
+
+// public class JavaBasics{
+//         public static void printpairs(int numbers[]){
+//             int tp = 0;
+//             for(int i=0; i<numbers.length; i++){
+//                 int curr = numbers[i]; // 2, 4, 6, 8, 10
+//                 for(int j=i+1; j<numbers.length; j++){
+//                     System.out.print("(" + curr + "," + numbers[j] + ")");
+//                     tp++;
+//                 }
+//                 System.out.println();
+//             }
+//             System.out.println("Total pairs is : "+ tp);
+//         }
+    
+//         public static void main(String args[]){
+//             int numbers[] = {2, 4, 6, 8, 10};
+//             printpairs(numbers);
+    
+//         }
+//     }
+
+// Output ----------
+// (2,4)(2,6)(2,8)(2,10)
+// (4,6)(4,8)(4,10)
+// (6,8)(6,10)
+// (8,10)
+
+// Total pairs is : 10
+
+
+
+// Print Subarrays -------------------------------------------------
+
+
+// public class JavaBasics{
+//     public static void printSubarrays(int numbers[]){
+//         for(int i=0; i<numbers.length; i++){
+//             int start = i;
+//             for(int j=i; j<numbers.length; j++){
+//                 int end = j;
+//                 for(int k=start; k<=end; k++){ // print
+//                     System.out.print(numbers[k]+ " "); // subarray
+//                 }
+//                 System.out.println();
+//             }
+//             System.out.println();
+//         }
+//     }
+
+//     public static void main(String args[]){
+//         int numbers[] = {2, 4, 6, 8, 10};
+//         printSubarrays(numbers);
+
+//     }
+// }
+
+// Output ---------
+
+// 2 
+// 2 4 
+// 2 4 6 
+// 2 4 6 8 
+// 2 4 6 8 10 
+
+// 4 
+// 4 6 
+// 4 6 8 
+// 4 6 8 10 
+
+// 6 
+// 6 8 
+// 6 8 10 
+
+// 8 
+// 8 10 
+
+// 10 
+
+
+
+// Find total number of subarray ----------------------------------
+
+
+// public class JavaBasics{
+//     public static void printSubarrays(int numbers[]){
+//         int ts = 0;
+//         for(int i=0; i<numbers.length; i++){
+//             int start = i;
+//             for(int j=i; j<numbers.length; j++){
+//                 int end = j;
+//                 for(int k=start; k<=end; k++){ // print
+//                     System.out.print(numbers[k]+ " "); // subarray
+//                 }
+//                 ts++;
+//                 System.out.println();
+//             }
+//             System.out.println();
+//         }
+//         System.out.println("Total subarrays = "+ ts);
+//     }
+
+//     public static void main(String args[]){
+//         int numbers[] = {2, 4, 6, 8, 10};
+//         printSubarrays(numbers);
+
+//     }
+// }
+
+// Output ---------------
+// 2 
+// 2 4 
+// 2 4 6 
+// 2 4 6 8 
+// 2 4 6 8 10 
+
+// 4 
+// 4 6 
+// 4 6 8 
+// 4 6 8 10 
+
+// 6 
+// 6 8 
+// 6 8 10 
+
+// 8 
+// 8 10 
+
+// 10 
+// Total subarrays = 15
+
+
+
+// Find Max sum of subarray ---------------------------------------
+
+// public class JavaBasics{
+//         public static void maxSubarraySum(int numbers[]){
+//             int currSum = 0;
+//             int maxSum = Integer.MIN_VALUE;
+
+//             for(int i=0; i<numbers.length; i++){
+//                 int start = i;
+//                 for(int j=i; j<numbers.length; j++){
+//                     int end = j;
+//                     currSum = 0;
+//                     for(int k=start; k<=end; k++){ // print
+//                         // subarray sum
+//                         currSum += numbers[k];
+//                     }
+//                     System.out.println(currSum);
+//                     if(maxSum < currSum){
+//                         maxSum = currSum;
+//                     }
+                    
+//                 }
+                
+//             }
+//             System.out.println("Max sum = "+ maxSum);
+//         }
+    
+//         public static void main(String args[]){
+//             int numbers[] = {2, 4, 6, 8, 10};
+//             maxSubarraySum(numbers);
+    
+//         }
+//     }
+
+// Output --------
+// 2
+// 6
+// 12
+// 20
+// 30
+// 4
+// 10
+// 18
+// 28
+// 6
+// 14
+// 24
+// 8
+// 18
+// 10
+// Max sum = 30
+
+
+
+// Trapping Rainwater in boundry -----------------------------------
+
+
+// public class JavaBasics{
+//     public static int trappedRainwater(int height[]){
+//         int n = height.length;
+
+//         // calculate left max boundry - array
+//         int leftMax[] = new int[n];
+//         leftMax[0] = height[0];
+//         for(int i=1; i<n; i++){
+//             leftMax[i] = Math.max(height[i], leftMax[i-1]);
+//         } 
+
+//         // calculate right max boundry - array
+//         int rightMax[] = new int[n];
+//         rightMax[n-1] = height[n-1];
+//         for(int i=n-2; i>=0; i--){
+//             rightMax[i] = Math.max(height[i], rightMax[i+1]);
+//         }
+
+//         int trappedWater = 0;
+//         // loop
+//         for(int i=0; i<n; i++){
+//             // waterLevel = min{leftmax bound, rightmax bound}
+//             int waterLevel = Math.min(leftMax[i], rightMax[i]);
+
+//             // trapped water = waterLevel - height[i]
+//             trappedWater += waterLevel - height[i];
+//         }
+
+//         return trappedWater;
+        
+//         // trapped water = waterLevel - height[i]
+//     }
+//     public static void main(String args[]){
+//         int height[] = {4, 2, 0, 6, 3, 2, 5};
+//         System.out.println(trappedRainwater(height));
+//     }
+// }
+
+// Output ---------------
+
+// 11
+
+
+
+// Buy & Sell Stocks ------------------------------------------------
+
+
+// public class JavaBasics{
+//     public static int buyAndSellStocks(int prices[]){
+//         int buyPrice = Integer.MAX_VALUE;
+//         int maxProfit = 0;
+
+//         for(int i=0; i<prices.length; i++){
+//             if(buyPrice < prices[i]){ // profit
+//                 int profit = prices[i] - buyPrice; // todat's profit
+//                 maxProfit = Math.max(maxProfit, profit);
+//             } else{
+//                 buyPrice = prices[i];
+//             }
+//         }
+//         return maxProfit;
+//     }
+//     public static void main (String args[]){
+//         int prices[] = {7, 1, 5, 3, 6, 4};
+//         System.out.println(buyAndSellStocks(prices));
+//     }
+// }
+
+// Time Complexity - o(n)
+
+// Output --------
+
+// 5
